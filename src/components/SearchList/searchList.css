@@ -1,0 +1,27 @@
+.addressResult {
+  text-align: left;
+  font-size: 16px;
+}
+.loadmore {
+  text-align: center;
+  padding:10px 15px;
+  margin:5% 30%;
+  background-color: #888;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.loadmore:hover {
+  background-color: rgb(85, 83, 83);
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}

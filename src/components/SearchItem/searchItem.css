@@ -1,0 +1,88 @@
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px 20px 80px;
+  border: 1px solid #888;
+  width: fit-content;
+  height: auto;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+
+.close {
+  color: #f1eaea;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 50%;
+  background: #afa2a2;
+  width: 34px;
+  box-shadow: 2px 3px 0px 0 rgba(0,0,0,0.2);
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modalOpen {
+  text-align: center;
+  padding: 3px 8px;
+  margin: 0 5px;
+  background-color: #888;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.display-name p {
+  font-size: 16px;
+  color: #f79030;
+  font-weight: bolder;
+}
+
+.OneResult {
+  cursor: pointer;
+  font-size: 1.09em;
+  padding: 30px 20px;
+  display: block;
+  box-shadow: 0 9px 1px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.OneResult:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
